@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags para sa character encoding at responsive na disenyo -->
+    <meta charset="UTF-8"> <!-- Set ang character encoding sa UTF-8 para sa mas magandang international support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Tinitiyak ang responsive na disenyo sa mga mobile device -->
+    
+    <title>About Us</title> <!-- Pamagat ng pahina na ipapakita sa tab ng browser -->
+    
+    <!-- Link sa external na stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Inline CSS para sa partikular na estilo ng pahinang ito -->
+    <style>
+        /* Set ang background color at styling para sa body */
+        body {
+            background-color: #f4f4f4; /* Maliwanag na kulay-abo na background */
+            font-family: 'Arial', sans-serif; /* Ginagamit ang modernong font na Arial */
+            color: #333; /* Madilim na kulay ng teksto para sa magandang contrast */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #00796b; /* Teal na kulay para sa background ng header */
+            text-align: center; /* Pinag-iisa ang text sa gitna */
+            padding: 40px 20px;
+            color: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Maliit na shadow para sa header */
+        }
+
+        h1 {
+            font-size: 3em; /* Mas malaking font size para sa pamagat */
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Maliit na shadow sa text para sa readability */
+        }
+
+        /* Main content styling */
+        main {
+            padding: 30px 20px; /* Padding para sa content area */
+            background-color: white; /* Puti ang background para magkaroon ng contrast */
+            margin: 30px auto;
+            max-width: 900px; /* Pinipigilan ang content na lumabis sa 900px na lapad */
+            border-radius: 8px; /* Round ang mga kanto ng box */
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Maliit na shadow para sa depth ng box */
+        }
+
+        h4 {
+            font-size: 1.3em; /* Bahagyang mas malaking text */
+            line-height: 1.8; /* Line spacing para sa magandang readability */
+            max-width: 800px;
+            margin: 0 auto; /* Pinag-iisa ang teksto sa gitna */
+            color: #555; /* Mas madilim na kulay ng teksto para madaling basahin */
+            text-align: justify; /* Iji-justify ang alignment ng teksto para maging pantay */
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #00796b; /* Parehong kulay ng teal na ginamit sa header */
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px; /* Space sa ibabaw ng footer */
+            font-size: 1.2em;
+            box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1); /* Maliit na shadow para sa footer */
+        }
+
+        footer p {
+            margin: 0; /* Inaalis ang default margin sa loob ng footer */
+        }
+
+        /* Back to Homepage Button */
+        .back-button {
+            background-color: #00796b; /* Matching color sa header at footer */
+            color: white;
+            padding: 12px 25px;
+            font-size: 1.2em;
+            text-decoration: none; /* Inaalis ang underline sa link */
+            border-radius: 5px;
+            display: inline-block; /* Siguraduhin na ang button ay inline at kasing laki lang ng kailangan */
+            margin-top: 20px; /* Space sa itaas ng button */
+        }
+
+        .back-button:hover {
+            background-color: #004d40; /* Darker shade kapag hover (pag inanod) */
+        }
+
+        /* Responsive Design para sa mga mas maliliit na screen */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em; /* I-adjust ang laki ng heading para sa mga mas maliit na screen */
+            }
+
+            h4 {
+                font-size: 1.1em; /* I-adjust ang laki ng text para sa mobile */
+                line-height: 1.6; /* Paliitin ang line spacing para sa mas maginhawang pagbabasa */
+                padding: 10px; /* Magdagdag ng padding para sa mas maliit na mga screen */
+            }
+
+            footer {
+                font-size: 1em; /* I-adjust ang laki ng font ng footer para sa mas maliit na mga screen */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Pangunahing pamagat ng pahina na nagsasabi sa user na ito ay ang 'About Us' page -->
+        <h1>About Us</h1>
+    </header>
+
+    <!-- Back to Homepage Button -->
+    <div style="text-align: center;">
+        <!-- Isang link na may estilo bilang button, na magre-redirect sa homepage -->
+        <a href="index.php" class="back-button">Back to Homepage</a>
+    </div>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Pangunahing content na naglalarawan ng layunin at misyon ng website (EcoRIDE) -->
+        <h4>
+            Sa EcoRIDE, kami ay nagsusumikap na lumikha ng isang mas sustainable at mahusay na paraan ng pag-commute. Ang aming platform ay nagkokonekta ng mga driver at pasahero na naghahanap ng mga pagkakataong mag-share ng biyahe, bawasan ang kanilang carbon footprint, at magtipid. Sa pamamagitan ng pagpapalaganap ng carpooling, layunin naming gawing mas abot-kaya ang transportasyon, mabawasan ang trapiko, at makatulong sa paglilinis ng kapaligiran.
+            <br><br>
+            Kung ikaw ay isang driver na nais mag-share ng biyahe o isang pasahero na naghahanap ng abot-kayang, eco-friendly na pamamaraan ng commute, ginagawang madali ng EcoRIDE na kumonekta sa iba. Ang aming layunin ay magbigay ng isang seamless at kasiya-siyang karanasan sa carpooling na makakatulong sa iyo na magtipid ng oras, pera, at mga resources.
+            <br><br>
+            Sumali sa EcoRIDE community ngayon, at maging bahagi ng kilusang patungo sa mas berde, mas matalino, at mas cost-effective na pag-commute. Magtulungan tayo upang gumawa ng pagbabago, isang biyahe sa bawat pagkakataon.
+        </h4>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Footer content na naglalaman ng copyright notice at pangalan ng kumpanya -->
+        <p>&copy; 2024 EcoRIDE Inc. | Lahat ng karapatan ay nakalaan</p>
+    </footer>
+</body>
+</html>

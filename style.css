@@ -1,0 +1,75 @@
+/* Itinatakda ang font ng buong body ng page at tinatanggal ang default na margin at padding */
+body {
+    font-family: Helvetica, sans-serif; /* Nagse-set ng font ng buong katawan ng page sa Helvetica o sans-serif kung hindi available ang una */
+    margin: 0; /* Tinatanggal ang default na margin ng body */
+    padding: 0; /* Tinatanggal ang default na padding ng body */
+}
+
+/* Estilo ng header ng page */
+header {
+    background-color: #ff9900; /* Ginagawang orange ang background ng header */
+    color: rgb(255, 255, 255); /* Ginagawang puti ang kulay ng text sa header */
+    padding: 20px; /* Naglalagay ng padding sa loob ng header */
+    text-align: center; /* Pina-center ang text sa loob ng header */
+}
+
+/* Estilo ng mga link sa navigation */
+nav a {
+    color: white; /* Ginagawang puti ang kulay ng mga link */
+    padding: 14px 20px; /* Naglalagay ng padding sa loob ng mga link */
+    text-decoration: none; /* Tinatanggal ang underline ng mga link */
+    text-align: center; /* Pina-center ang text ng mga link */
+}
+
+/* Estilo ng mga link kapag hinawakan (hover effect) */
+nav a:hover {
+    background-color: #333; /* Nagiging dark gray ang background ng link kapag hovered */
+}
+
+/* Estilo ng form */
+form {
+    margin: 20px; /* Naglalagay ng margin sa paligid ng form */
+    padding: 20px; /* Naglalagay ng padding sa loob ng form */
+    background-color: #ffffff; /* Ginagawang puti ang background ng form */
+    border-radius: 8px; /* Binibigyan ng bilog na mga kanto ang form */
+}
+
+/* Estilo ng mga label sa form */
+form label {
+    display: block; /* Ginagawang block element ang label para mag-occupy ng buong linya */
+    margin: 10px 0 5px; /* Naglalagay ng margin sa label para sa mas magandang spacing */
+}
+
+/* Estilo ng mga input field sa form */
+form input {
+    width: 100%; /* Punuin ang lapad ng input fields sa loob ng form */
+    padding: 10px; /* Naglalagay ng padding sa loob ng input fields */
+    margin-bottom: 10px; /* Naglalagay ng espasyo sa ilalim ng input fields */
+    border: 1px solid #ccc; /* Naglalagay ng border sa input fields na may light gray color */
+    border-radius: 5px; /* Binibigyan ng bilog na mga kanto ang input fields */
+}
+
+/* Estilo ng button sa form */
+form button {
+    padding: 10px 20px; /* Naglalagay ng padding sa loob ng button */
+    background-color: #4CAF50; /* Ginagawang green ang background ng button */
+    color: white; /* Ginagawang puti ang text color ng button */
+    border: none; /* Tinatanggal ang default na border ng button */
+    border-radius: 5px; /* Binibigyan ng bilog na mga kanto ang button */
+}
+
+/* Estilo ng button kapag hinawakan (hover effect) */
+form button:hover {
+    background-color: #45a049; /* Nagiging darker green ang background ng button kapag hovered */
+}
+
+/* Estilo ng footer */
+footer {
+    background-color: #333; /* Ginagawang dark gray ang background ng footer */
+    color: rgb(20, 20, 20); /* Ginagawang dark gray ang kulay ng text sa footer */
+    padding: 10px; /* Naglalagay ng padding sa loob ng footer */
+    text-align: center; /* Pina-center ang text sa loob ng footer */
+    position: fixed; /* Ginagawang fixed ang posisyon ng footer sa ibaba ng page */
+    bottom: 0; /* Ipinapako ang footer sa pinakababa ng screen */
+    width: 100%; /* Ginagawang 100% ang lapad ng footer, upang punuin ang ibabang bahagi ng screen */
+}
